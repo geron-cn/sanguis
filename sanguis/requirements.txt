@@ -1,0 +1,12 @@
+djangorestframework
+mysqlclient
+django==2.2.2
+djangorestframework-filters
+django-admin-list-filter-dropdown
+django-daterange-filter
+django-cors-headers
+xlrd
+sklearn
+numpy
+tensorflow
+pandas

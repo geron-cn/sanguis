@@ -1,0 +1,14 @@
+pip3 install mysqlclient
+pip3 install djangorestframework
+
+create database sanguisdata DEFAULT CHARACTER set utf8;
+create user 'sanguismis'@'%' identified by 'missanguis';
+GRANT ALL ON sanguisdata.* TO 'sanguismis'@'%';
+
+
+lsof -i tcp:8003
+
+python3 manage.py makemigrations sanguis
+python3 manage.py migrate
+
+python3 manage.py  createsuperuser
