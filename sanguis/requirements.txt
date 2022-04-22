@@ -1,6 +1,6 @@
 djangorestframework
 mysqlclient
-django==2.2.27
+django==2.2.28
 djangorestframework-filters
 django-admin-list-filter-dropdown
 django-daterange-filter
